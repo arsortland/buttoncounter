@@ -7,7 +7,7 @@ function App() {
 
   return <div className="App">
     <button onClick={() => setCount(count + 1)}>Klikk meg</button>
-    <h1>{count}</h1>
+    <h1>Amount of clicks: {count}</h1>
   </div>;
 }
 
